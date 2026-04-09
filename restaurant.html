@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant Website</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="restaurant.css">
+
+
+  
+</head>
+
+<body>
+
+  <!-- Hero Section -->
+  <section class="hero-section text-center text-white">
+    <div class="container">
+      <h1 class="display-3">Welcome to The Gourmet Bistro</h1>
+      <p class="lead">Experience fine dining with a touch of elegance</p>
+      <a href="#reservation" class="btn btn-warning btn-lg">Reserve a Table</a>
+    </div>
+  </section>
+
+  <!-- About Us Section -->
+  <section id="about" class="container py-5">
+    <h2 class="text-center">About Us</h2>
+    <p class="lead text-center">At The Gourmet Bistro, we bring you an unforgettable dining experience with the finest
+      ingredients and exceptional service.</p>
+    <div class="row">
+      <div class="col-md-6">
+        <h4>Our Mission</h4>
+        <p>We aim to provide our guests with exceptional culinary creations and a comfortable, friendly atmosphere,
+          perfect for gatherings of any occasion.</p>
+      </div>
+      <div class="col-md-6">
+        <h4>Our Chef</h4>
+        <p>Our head chef, Jane Doe, brings years of experience from the finest kitchens in Europe, blending modern
+          techniques with traditional flavors.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Menu Section -->
+  <section id="menu" class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center">Our Menu</h2>
+      <div class="row">
+        <!-- Appetizers -->
+        <div class="col-md-4 mt-5">
+          <div class="card menu-card">
+            <img src="IMAGES/Bruschetta.jpg" class="card-img-top" alt="Appetizer">
+            <div class="card-body">
+              <h5 class="card-title">Bruschetta</h5>
+              <p class="card-text">Crispy bread topped with fresh tomatoes, basil, and a drizzle of balsamic glaze.</p>
+              <p><strong>$8.99</strong></p>
+            </div>
+          </div>
+        </div>
+        <!-- Main Courses -->
+        <div class="col-md-4 mt-5">
+          <div class="card menu-card">
+            <img src="IMAGES/grilled salmon.jpg" class="card-img-top" alt="Main Course">
+            <div class="card-body">
+              <h5 class="card-title">Grilled Salmon</h5>
+              <p class="card-text">Freshly grilled salmon served with a lemon butter sauce, roasted vegetables, and rice.</p>
+              <p><strong>$22.99</strong></p>
+            </div>
+          </div>
+        </div>
+        <!-- Desserts -->
+        <div class="col-md-4 mt-5">
+          <div class="card menu-card">
+            <img src="IMAGES/lava cake.jpg" class="card-img-top" alt="Dessert">
+            <div class="card-body">
+              <h5 class="card-title">Chocolate Lava Cake</h5>
+              <p class="card-text">Decadent chocolate cake with a warm molten center, served with vanilla ice cream.</p>
+              <p><strong>$21.99</strong></p>
+            </div>
+          </div>
+        </div>
+        <!-- Desserts -->
+        <div class="col-md-4 mt-5">
+          <div class="card menu-card">
+            <img src="IMAGES/Shrimp Cocktail.jpg" class="card-img-top" alt="Dessert">
+            <div class="card-body">
+              <h5 class="card-title">Shrimp Cocktail</h5>
+              <p class="card-text">Plump, tender shrimp chilled to perfection and served with spicy Cocktail sauce.</p>
+              <p><strong>$20.99</strong></p>
+            </div>
+          </div>
+        </div>
+        <!-- Desserts -->
+        <div class="col-md-4 mt-5">
+          <div class="card menu-card">
+            <img src="IMAGES/roasted grapes.jpg" class="card-img-top" alt="Dessert">
+            <div class="card-body">
+              <h5 class="card-title">Roasted Grapes</h5>
+              <p class="card-text">Our roasted grapes are a unique twist on traditional appetizers.</p>
+              <p><strong>$7.99</strong></p>
+            </div>
+          </div>
+        </div>
+        <!-- Desserts -->
+        <div class="col-md-4 mt-5">
+          <div class="card menu-card">
+            <img src="IMAGES/bites.jpg" class="card-img-top" alt="Dessert">
+            <div class="card-body">
+              <h5 class="card-title">Sausage Roll Bites</h5>
+              <p class="card-text">Perfect fusion of crispy, flaky pastry and savory, seasoned sausage filling.</p>
+              <p><strong>$5.99</strong></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Reservation Section -->
+  <section id="reservation" class="container py-5">
+    <h2 class="text-center">Reserve Your Table</h2>
+    <form>
+      <div class="mb-3">
+        <label for="name" class="form-label">Your Name</label>
+        <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+      </div>
+      <div class="mb-3">
+        <label for="date" class="form-label">Reservation Date</label>
+        <input type="date" class="form-control" id="date" required>
+      </div>
+      <div class="mb-3">
+        <label for="time" class="form-label">Reservation Time</label>
+        <input type="time" class="form-control" id="time" required>
+      </div>
+      <div class="mb-3">
+        <label for="guests" class="form-label">Number of Guests</label>
+        <input type="number" class="form-control" id="guests" placeholder="Enter number of guests" required>
+      </div>
+      <button type="submit" class="btn btn-warning">Book Now</button>
+    </form>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="bg-dark text-white py-5">
+    <div class="container">
+      <h2 class="text-center">Contact Us</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <p>Address: 123 Gourmet Blvd, Foodie City, FC 12345</p>
+          <p>Phone: +1 (123) 456-7890</p>
+          <p>Email: info@gourmetbistro.com</p>
+        </div>
+        <div class="col-md-6">
+          <div id="map" style="height: 300px; background-color: #ccc;"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="text-center">
+    <p>&copy; 2026 The Gourmet Bistro. All Rights Reserved.</p>
+    <p><a href="#about">Back to Top</a></p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+  
+
+</html>

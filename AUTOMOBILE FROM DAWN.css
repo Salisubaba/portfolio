@@ -1,0 +1,29 @@
+.mydiv{
+    background-color: #701C00;
+    height:80px;
+        width: 900px;
+        font-size: x-large ;
+        border-radius: 70px;
+        margin-left: 200px;
+    }
+    h1 {
+        text-align: center;
+        color:rgb(0, 63, 0);
+    }
+    p {
+        font-weight: normal;
+        font-size:x-large;
+    }
+    a {
+    text-decoration: none;
+    color:rgb(2, 134, 42);
+    }
+    a:hover{
+    text-decoration: underline;
+    
+    }
+        img{
+            height: 500px;
+            width: 500px;
+            border-radius: 70px;
+        }

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Blog</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!--<link rel="stylesheet" href="bootstrap-5.3.7-dist/css/bootstrap.css">-->
+  <link rel="stylesheet" href="traveler.css">
+
+
+  
+</head>
+
+<body>
+
+  <!-- Hero Section -->
+  <section class="hero-section text-center">
+    <div class="container">
+      <h1 class="display-3">Adventure Awaits</h1>
+      <p class="lead">Join me on my travels around the world, discovering new destinations and cultures</p>
+      <a href="#latest-posts" class="btn btn-warning btn-lg">Read My Latest Posts</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="container py-5">
+    <h2 class="text-center">About Me</h2>
+    <p class="lead text-center">I'm a passionate traveler, exploring the world one step at a time. Follow my adventures through this blog!</p>
+    <div class="row">
+      <div class="col-md-6">
+        <h4>Why Travel?</h4>
+        <p>Traveling allows me to experience new cultures, meet incredible people, and broaden my perspective on life. This blog is my way of sharing my journey with you.</p>
+      </div>
+      <div class="col-md-6">
+        <h4>Follow My Adventures</h4>
+        <p>From hidden gems to iconic landmarks, I will guide you through some of the most exciting places I've visited and share travel tips along the way.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Blog Section -->
+  <section id="latest-posts" class="container py-5">
+    <h2 class="text-center">Latest Blog Posts</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card blog-card">
+          <img src="IMAGES/paris.jpeg" class="card-img-top" alt="Post 1">
+          <div class="card-body">
+            <h5 class="card-title">Exploring Paris: A Weekend in the City of Lights</h5>
+            <p class="card-text">From the Eiffel Tower to the charming streets of Montmartre, Paris is a city that offers something for everyone. Here's my journey through the City of Lights!</p>
+            <a href="#post-1" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card blog-card">
+          <img src="IMAGES/cambodia.jpg" class="card-img-top" alt="Post 2">
+          <div class="card-body">
+            <h5 class="card-title">A Journey Through the Temples of Cambodia</h5>
+            <p class="card-text">Exploring the ancient ruins of Angkor Wat and the breathtaking temples in Cambodia was one of the most memorable experiences of my travels.</p>
+            <a href="#post-2" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card blog-card">
+          <img src="IMAGES/tokyo.jpg" class="card-img-top" alt="Post 3">
+          <div class="card-body">
+            <h5 class="card-title">Wandering Through the Streets of Tokyo</h5>
+            <p class="card-text">Tokyo is a city where tradition and modernity collide. Join me as I explore the best food, shopping, and culture the city has to offer!</p>
+            <a href="#post-3" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Travel Destination Section -->
+  <section id="destinations" class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center">Top Travel Destinations</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="IMAGES/bali.jpg" class="card-img-top" alt="Destination 1">
+            <div class="card-body">
+              <h5 class="card-title">Bali, Indonesia</h5>
+              <p class="card-text">Known for its stunning beaches, lush rice terraces, and vibrant culture, Bali is a dream destination for travelers seeking both relaxation and adventure.</p>
+              <a href="#bali" class="btn btn-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="IMAGES/rome.jpg" class="card-img-top" alt="Destination 2">
+            <div class="card-body">
+              <h5 class="card-title">Rome, Italy</h5>
+              <p class="card-text">Rome is a city where history comes to life. From the Colosseum to the Vatican, there's no shortage of inspiring sights in this ancient city.</p>
+              <a href="#rome" class="btn btn-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="IMAGES/kyoto.jpg" class="card-img-top" alt="Destination 3">
+            <div class="card-body">
+              <h5 class="card-title">Kyoto, Japan</h5>
+              <p class="card-text">Kyoto offers a glimpse into Japan's traditional culture, with its serene temples, tranquil gardens, and iconic red torii gates.</p>
+              <a href="#kyoto" class="btn btn-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="container py-5">
+    <h2 class="text-center">Contact Me</h2>
+    <form action="https://formspree.io/f/mbdperdy" method="post">
+      <div class="mb-3">
+        <label for="name" class="form-label">Your Name</label>
+        <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+      </div>
+      <div class="mb-3">
+        <label for="message" class="form-label">Message</label>
+        <textarea class="form-control" id="message" rows="4" placeholder="Your message" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-warning">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="text-center">
+    <p>&copy; 2026 Travel Adventures. All Rights Reserved.</p>
+    <p><a href="#about">Back to Top</a></p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+  <!--<script defer src="bootstrap-5.3.7-dist/js/bootstrap.bundle.js"></script>-->
+</body>
+
+</html>
