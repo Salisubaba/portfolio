@@ -51,7 +51,7 @@
             <img src="IMAGES/benzo.jpg" class="card-img-top" alt="Opposites">
             <div class="card-body">
               <h5 class="card-title">Automobile from Dawn</h5>
-              <p class="card-text">A brief description of this project. It was my fist ever project, built with just html and css a long time ago without any update.</p>
+              <p class="card-text">A brief description of this project. It was my fist ever project, built with just html and css a long time ago without any update. It gives a brief and interesting history of the automobile.</p>
               <a href="AUTOMOBILE FROM DAWN.html" class="btn btn-primary">View Project</a>
             </div>
           </div>
@@ -87,7 +87,9 @@
     <div class="text-center"><h5>Need a high-performing, sleek, and seamless website? Reach out today for a custom quote!</h5></div>
     
     <h2 class="section-title">Contact Me</h2>
-    <form action="https://formspree.io/f/mbdperdy" method="post">
+    <form 
+      action="https://formspree.io/f/mgorwrgd" 
+      method="POST">
       <div class="mb-3">
         <label for="name" class="form-label">Your Name</label>
         <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
@@ -124,6 +126,15 @@
 
   <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
+  <script>
+    document.querySelector('form').addEventListener('submit', function(event){
+      event.preventDefault();
+      alert('Thank you! Your message has been sent.');
+      document.querySelector('form').reset();
+    });
+  </script>
   
 </body>
 </html>
